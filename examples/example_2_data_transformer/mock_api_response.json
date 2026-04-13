@@ -1,0 +1,86 @@
+{
+  "status": "success",
+  "timestamp": "2026-04-13T10:00:00Z",
+  "data": [
+    {
+      "hostname": "web-server-01",
+      "role": "web",
+      "datacenter": "us-east-1",
+      "network": {
+        "ip_address": "192.168.1.10",
+        "subnet": "192.168.1.0/24",
+        "gateway": "192.168.1.1"
+      }
+    },
+    {
+      "hostname": "web-server-02",
+      "role": "web",
+      "datacenter": "us-east-1",
+      "network": {
+        "ip_address": "192.168.1.11",
+        "subnet": "192.168.1.0/24",
+        "gateway": "192.168.1.1"
+      }
+    },
+    {
+      "hostname": "db-primary",
+      "role": "database",
+      "datacenter": "us-east-1",
+      "network": {
+        "ip_address": "10.0.0.55",
+        "subnet": "10.0.0.0/24",
+        "gateway": "10.0.0.1"
+      }
+    },
+    {
+      "hostname": "db-replica-01",
+      "role": "database",
+      "datacenter": "us-west-2",
+      "network": {
+        "ip_address": "10.0.1.55",
+        "subnet": "10.0.1.0/24",
+        "gateway": "10.0.1.1"
+      }
+    },
+    {
+      "hostname": "cache-node-01",
+      "role": "cache",
+      "datacenter": "us-east-1",
+      "network": {
+        "ip_address": "172.16.0.10",
+        "subnet": "172.16.0.0/24",
+        "gateway": "172.16.0.1"
+      }
+    },
+    {
+      "hostname": "load-balancer-01",
+      "role": "load-balancer",
+      "datacenter": "us-east-1",
+      "network": {
+        "ip_address": "192.168.0.5",
+        "subnet": "192.168.0.0/24",
+        "gateway": "192.168.0.1"
+      }
+    },
+    {
+      "hostname": "monitoring-server",
+      "role": "monitoring",
+      "datacenter": "us-west-2",
+      "network": {
+        "ip_address": "172.16.1.100",
+        "subnet": "172.16.1.0/24",
+        "gateway": "172.16.1.1"
+      }
+    },
+    {
+      "hostname": "backup-storage-01",
+      "role": "storage",
+      "datacenter": "eu-central-1",
+      "network": {
+        "ip_address": "10.10.0.20",
+        "subnet": "10.10.0.0/24",
+        "gateway": "10.10.0.1"
+      }
+    }
+  ]
+}
