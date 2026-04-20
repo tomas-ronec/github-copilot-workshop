@@ -1,3 +1,5 @@
+> “This is not a tutorial. It’s a repeatable workshop system for teams adopting Copilot.”
+
 # GitHub Copilot Workshop
 
 > **Get your team on board with GitHub Copilot through hands-on exercises that teach the Plan → Agent → Review workflow.**
